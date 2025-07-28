@@ -10,12 +10,13 @@ A universal Ml powered document analysis system that intelligently extracts, ran
 
 ROOT/
 │
-├─ input/
-│ ├─ input.json # Defines documents, persona, and job/task
-│ └─ *.pdf # The PDF documents to process
-│
-├─ output/
-│ └─ output.json # Resulting top sections and extracted content
+|_app
+  ├─ input/
+  │ ├─ input.json # Defines documents, persona, and job/task
+  │ └─ *.pdf # The PDF documents to process
+  │
+  ├─ output/
+  │ └─ output.json # Resulting top sections and extracted content
 │
 ├─ main.py # Contains GenericDocumentIntelligence class & entrypoint
 └─ Dockerfile # Container build definition
