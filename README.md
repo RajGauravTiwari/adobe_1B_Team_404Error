@@ -43,6 +43,7 @@ text
 ### 3. Prepare Input
 
 - Put your PDFs and `input.json` in `input/`.
+- A sample input and output has been attached.
 - `input.json` example:
 {
 "documents": [{"filename": "doc1.pdf"}, {"filename": "doc2.pdf"}],
@@ -51,6 +52,7 @@ text
 }
 
 text
+
 
 ---
 
